@@ -53,7 +53,6 @@ const getData = async (url) => {
 };
 
 const toggleModalAuth = () => modalAuth.classList.toggle('is-open');
-
 const toggleModal = () => modal.classList.toggle("is-open");
 
 const returnMain = () => {
