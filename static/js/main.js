@@ -79,7 +79,6 @@ function authorized() {
     checkAuth();
   }
 
-  console.log('Authorized');
   userName.textContent = user['login'];
   buttonAuth.style.display = 'none';
   userName.style.display = 'inline';
@@ -90,7 +89,6 @@ function authorized() {
 }
 
 function notAuthorized() {
-  console.log('Not authorized');
 
   function logIn(event) {
     event.preventDefault();
